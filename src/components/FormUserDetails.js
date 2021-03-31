@@ -23,7 +23,7 @@ export class FormUserDetails extends Component {
                     >
                         <AppBar title="Enter User Details" />
                         <TextField
-                            placeholder="Enter Your First Name"
+                            placeholder="Your first name goes here..."
                             label="First Name"
                             onChange={handleChange('firstName')}
                             defaultValue={values.firstName}
@@ -32,7 +32,7 @@ export class FormUserDetails extends Component {
                         />
                         <br />
                         <TextField
-                            placeholder="Enter Your Last Name"
+                            placeholder="Which means your last name goes here."
                             label="Last Name"
                             onChange={handleChange('lastName')}
                             defaultValue={values.lastName}
@@ -41,7 +41,7 @@ export class FormUserDetails extends Component {
                         />
                         <br />
                         <TextField
-                            placeholder="Enter Your Email"
+                            placeholder="We want your email! >.>"
                             label="Email"
                             onChange={handleChange('email')}
                             defaultValue={values.email}

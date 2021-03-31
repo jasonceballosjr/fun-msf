@@ -15,7 +15,7 @@ export class UserForm extends Component {
         bio: ''
     };
 
-    // Proceed to next step
+
     nextStep = () => {
         const { step } = this.state;
         this.setState({
@@ -23,7 +23,7 @@ export class UserForm extends Component {
         });
     };
 
-    // Go back to prev step
+
     prevStep = () => {
         const { step } = this.state;
         this.setState({
@@ -31,7 +31,6 @@ export class UserForm extends Component {
         });
     };
 
-    // Handle fields change
     handleChange = input => e => {
         this.setState({ [input]: e.target.value });
     };
@@ -70,7 +69,7 @@ export class UserForm extends Component {
             case 4:
                 return <Success />;
             default:
-                (console.log('This is a multi-step form built with React.'))
+                (console.log('Guess it broke, huh?'))
         }
     }
 }

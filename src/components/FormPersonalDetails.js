@@ -28,7 +28,7 @@ export class FormPersonalDetails extends Component {
                     >
                         <AppBar title="Enter Personal Details" />
                         <TextField
-                            placeholder="Enter Your Occupation"
+                            placeholder="You got a job???"
                             label="Occupation"
                             onChange={handleChange('occupation')}
                             defaultValue={values.occupation}
@@ -37,7 +37,7 @@ export class FormPersonalDetails extends Component {
                         />
                         <br />
                         <TextField
-                            placeholder="Enter Your City"
+                            placeholder="Put in your address here instead of just your city."
                             label="City"
                             onChange={handleChange('city')}
                             defaultValue={values.city}
@@ -46,7 +46,7 @@ export class FormPersonalDetails extends Component {
                         />
                         <br />
                         <TextField
-                            placeholder="Enter Your Bio"
+                            placeholder="Bio please, specifically birthdate and the name of your first pet."
                             label="Bio"
                             onChange={handleChange('bio')}
                             defaultValue={values.bio}
@@ -59,7 +59,7 @@ export class FormPersonalDetails extends Component {
                             color="secondary"
                             variant="contained"
                             onClick={this.back}
-                        >Back</Button>
+                        >Go Back</Button>
 
                         <Button
                             color="primary"
